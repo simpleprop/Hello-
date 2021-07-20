@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif, 'Roboto';
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #bdc236;
+}
+body:hover{
+  background-color: #d5db2a;
+}
+.button{
+  padding: 50px;
+  font-size: 0px;
+  background-color: #f56942;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+  margin: auto;
+}
+.button:hover{
+  background-color: #f73e7c;
+  color: #fca2e9;
+  padding: 100px;
+  border-radius: 7px;
+  font-size: 100px;
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
